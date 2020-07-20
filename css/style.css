@@ -1,0 +1,44 @@
+body{
+    margin:0px;
+}
+
+/* HEADER */
+
+header.nav-wrapper {
+    margin: 0 7%;  
+}
+
+.nav-bar{
+    display: flex;
+    border: 1px solid red;
+}
+
+.nav-bar > * {
+    flex:1;
+}
+
+.nav-bar .logo{
+    flex: 5;
+}
+
+.logo {
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;    
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons > * {
+    flex:1;
+}
+
+/* CONTENT */
+
+/* FOOTER */
