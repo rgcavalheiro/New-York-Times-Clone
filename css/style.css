@@ -66,7 +66,7 @@ body {
     color: #666;
 }
 
-.video-legend{
+.video-legend {
     max-width: 86%;
     color: #666;
     font-size: 0.9rem;
@@ -78,7 +78,7 @@ body {
     color: #888;
 }
 
-.credit-video-legend{
+.credit-video-legend {
     font-size: 13px;
     color: #888;
 }
@@ -104,26 +104,27 @@ body {
 
 .social-media a i {
     width: 18px;
-    color:black;
+    color: black;
 }
 
-.author-name{
-    color:black;
+.author-name {
+    color: black;
     text-decoration-color: #ccc;
 }
-.author h5{
-    margin:0;
+
+.author h5 {
+    margin: 0;
 }
 
-.date p{
+.date p {
     font-size: 0.8rem;
     font-weight: 500;
 }
 
-.articles{
+.articles {
     width: 44%;
     margin: auto;
-    font-size:1.25rem;
+    font-size: 1.25rem;
     line-height: 1.875rem;
     padding: 0 20px;
 }
@@ -171,14 +172,13 @@ body {
     align-items: center;
 }
 
-@media (min-width: 1200px) 
-{
-  .picks{
-      margin: 15px 0;
-  }
-  .inflation-theory{
-      height: 800px !important;
-  }
+@media (min-width: 1200px) {
+    .picks {
+        margin: 15px 0;
+    }
+    .inflation-theory {
+        height: 800px !important;
+    }
 }
 
 .picks img {
@@ -186,7 +186,7 @@ body {
     height: 100%;
 }
 
-.picks p{
+.picks p {
     width: 60%;
     font-size: 11px;
     line-height: 12px;
@@ -197,14 +197,8 @@ body {
     height: 750px;
     margin: 0 auto;
     display: grid;
-    grid-template:  100px repeat(4, 1fr) 100px / repeat(4, 1fr);
-    grid-template-areas: 
-        "header header header header"
-        "figure1 figure2 figure3 figure4"
-        "caption1 caption2 caption3 caption4"
-        "figure5 figure6 figure7 figure8"
-        "caption5 caption6 caption7 caption8"
-        "footer footer footer footer";
+    grid-template: 100px repeat(4, 1fr) 100px / repeat(4, 1fr);
+    grid-template-areas: "header header header header" "figure1 figure2 figure3 figure4" "caption1 caption2 caption3 caption4" "figure5 figure6 figure7 figure8" "caption5 caption6 caption7 caption8" "footer footer footer footer";
     grid-gap: 10px;
 }
 
@@ -224,67 +218,67 @@ body {
     width: 100%;
 }
 
-.inflation-theory .img1{
+.inflation-theory .img1 {
     grid-area: figure1;
 }
 
-.inflation-theory .caption1{
+.inflation-theory .caption1 {
     grid-area: caption1;
 }
 
-.inflation-theory .img2{
+.inflation-theory .img2 {
     grid-area: figure2;
 }
 
-.inflation-theory .caption2{
+.inflation-theory .caption2 {
     grid-area: caption2;
 }
 
-.inflation-theory .img3{
+.inflation-theory .img3 {
     grid-area: figure3;
 }
 
-.inflation-theory .caption3{
+.inflation-theory .caption3 {
     grid-area: caption3;
 }
 
-.inflation-theory .img4{
+.inflation-theory .img4 {
     grid-area: figure4;
 }
 
-.inflation-theory .caption4{
+.inflation-theory .caption4 {
     grid-area: caption4;
 }
 
-.inflation-theory .img5{
+.inflation-theory .img5 {
     grid-area: figure5;
 }
 
-.inflation-theory .caption5{
+.inflation-theory .caption5 {
     grid-area: caption5;
 }
 
-.inflation-theory .img6{
+.inflation-theory .img6 {
     grid-area: figure6;
 }
 
-.inflation-theory .caption6{
+.inflation-theory .caption6 {
     grid-area: caption6;
 }
 
-.inflation-theory .img7{
+.inflation-theory .img7 {
     grid-area: figure7;
 }
 
-.inflation-theory .caption7{
+.inflation-theory .caption7 {
     grid-area: caption7;
 }
 
-.inflation-theory .img8{
+.inflation-theory .img8 {
     grid-area: figure8;
 }
 
-.inflation-theory .caption8{
+.inflation-theory .caption8 {
     grid-area: caption8;
 }
 
@@ -297,10 +291,17 @@ body {
     background-color: #000;
 }
 
-
-.footer{
+.footer {
     grid-area: footer;
 }
 
+.telescope{
+    margin:0;
+}
+
+.telescope img{
+    max-width: 100%;
+
+}
 
 /* FOOTER */
