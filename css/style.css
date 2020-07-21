@@ -61,12 +61,24 @@ body {
     margin: 20px auto 0 auto;
 }
 
-.figure-hero figcaption {
-    max-width: 75%;
+.figure-hero-caption {
+    max-width: 86%;
     color: #666;
 }
 
+.video-legend{
+    max-width: 86%;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+
 .image-credit {
+    font-size: 13px;
+    color: #888;
+}
+
+.credit-video-legend{
     font-size: 13px;
     color: #888;
 }
