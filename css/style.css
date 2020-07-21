@@ -109,7 +109,7 @@ body {
 }
 
 .articles{
-    width: 31%;
+    width: 44%;
     margin: auto;
     font-size:1.25rem;
     line-height: 1.875rem;
@@ -138,8 +138,8 @@ body {
     width: 13%;
     /* border: 1px solid red; */
     position: absolute;
-    right: 17%;
-    top: 2300px;
+    right: 12%;
+    top: 1945px;
 }
 
 .editor-picks h5 {
@@ -157,6 +157,16 @@ body {
     /* border: 1px solid green; */
     justify-content: space-around;
     align-items: center;
+}
+
+@media (min-width: 1200px) 
+{
+  .picks{
+      margin: 15px 0;
+  }
+  .inflation-theory{
+      height: 800px !important;
+  }
 }
 
 .picks img {
