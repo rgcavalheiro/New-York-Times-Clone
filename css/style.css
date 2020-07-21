@@ -134,6 +134,41 @@ body {
     font-weight: 600;
 }
 
+.editor-picks {
+    width: 13%;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 17%;
+    top: 2300px;
+}
+
+.editor-picks h5 {
+    margin: 0;
+    font-size: 11px;
+}
+
+.editor-picks hr {
+    margin: 0;
+    color: #e2e2e2;
+}
+
+.picks {
+    display: flex;
+    /* border: 1px solid green; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.picks img {
+    width: 28%;
+    height: 100%;
+}
+
+.picks p{
+    width: 60%;
+    font-size: 11px;
+    line-height: 12px;
+}
 
 
 /* FOOTER */
