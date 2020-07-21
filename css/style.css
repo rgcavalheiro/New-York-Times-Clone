@@ -116,4 +116,24 @@ body {
     padding: 0 20px;
 }
 
+.subscribe-nyt {
+    text-align: center;
+}
+
+.subscribe-nyt h6 {
+    margin: 0;
+    margin-bottom: -10px;
+    color: #333;
+    font-size: 10px;
+}
+
+.subscribe-nyt a {
+    text-decoration: none;
+    color: #326891;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+
 /* FOOTER */
