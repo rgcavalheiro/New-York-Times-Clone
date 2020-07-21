@@ -303,5 +303,205 @@ body {
     max-width: 100%;
 
 }
+.bottompart {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgb(102, 102, 102);
+}
+
+.bottompart a {
+    
+    color: rgb(102, 102, 102);
+}
+
+.bottompart a:hover {
+    text-decoration: none;
+}
+
+.social-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.read button{
+    width:350px;    
+    padding: 10px;
+    color: white;
+    background-color: rgb(86, 123, 149);
+    border:none;
+    border-radius: 3px;
+}
+
+.fix i {
+    height: 10px;
+    width: 23px !important;
+    font-size: 15px;
+}
+
+.grid-container{
+    width: 87%;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 50px repeat(2, 180px 15px 70px) 50px 180px 15px 70px / repeat(4,1fr);
+    grid-template-areas: "title title title most-popular" 
+                        "figure1 figure2 figure3 most-popular"
+                        "grid-caption1 grid-caption2 grid-caption3 most-popular"
+                        "bigcaption1 bigcaption2 bigcaption3 most-popular"
+                        "figure4 figure5 figure6 most-popular"
+                        "grid-caption4 grid-caption5 grid-caption6 most-popular"
+                        "bigcaption4 bigcaption5 bigcaption6 most-popular"
+                        "title2 title2 title2 most-popular" 
+                        "figure7 figure8 figure9 most-popular"
+                        "grid-caption7 grid-caption8 grid-caption9 most-popular"
+                        "bigcaption7 bigcaption8 bigcaption9 most-popular";
+    grid-gap:12px;
+}
+
+.moreinspace{
+    grid-area:title;
+}
+
+.figure1{
+    grid-area: figure1;
+}
+
+.figure2{
+    grid-area: figure2;
+}
+
+.figure3{
+    grid-area: figure3;
+}
+
+.figure4{
+    grid-area: figure4;
+}
+
+.figure5{
+    grid-area: figure5;
+}
+
+.figure6{
+    grid-area: figure6;
+}
+
+.figure7{
+    grid-area: figure7;
+}
+
+.figure8{
+    grid-area: figure8;
+}
+
+.figure9{
+    grid-area: figure9;
+}
+
+.grid-caption1{
+    grid-area: grid-caption1;
+}
+
+.grid-caption2{
+    grid-area: grid-caption2;
+}
+
+.grid-caption3{
+    grid-area: grid-caption3;
+}
+
+.grid-caption4{
+    grid-area: grid-caption4;
+}
+
+.grid-caption5{
+    grid-area: grid-caption5;
+}
+
+.grid-caption6{
+    grid-area: grid-caption6;
+}
+
+.grid-caption7{
+    grid-area: grid-caption7;
+}
+
+.grid-caption8{
+    grid-area: grid-caption8;
+}
+
+.grid-caption9{
+    grid-area: grid-caption9;
+}
+
+.bigcaption1{
+    grid-area: bigcaption1;
+}
+
+.bigcaption2{
+    grid-area: bigcaption2;
+}
+
+.bigcaption3{
+    grid-area: bigcaption3;
+}
+
+.bigcaption4{
+    grid-area: bigcaption4;
+}
+
+.bigcaption5{
+    grid-area: bigcaption5;
+}
+
+.bigcaption6{
+    grid-area: bigcaption6;
+}
+
+.bigcaption7{
+    grid-area: bigcaption7;
+}
+
+.bigcaption8{
+    grid-area: bigcaption8;
+}
+
+.bigcaption9{
+    grid-area: bigcaption9;
+}
+
+.bigcaption1{
+    grid-area: bigcaption1;
+}
+
+.most-popular{
+    grid-area: most-popular;
+}
+
+.title2{
+    grid-area: title2;
+}
+
+.figure-grid{
+    width: 100%;
+}
+
+.small-caption{
+    margin:0;
+}
+
+.big-caption h3{
+    margin:0;
+    font-size: 1.125rem;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.small-caption{
+    font-size: 0.625rem;
+    text-align: right;
+    color: rgb(153, 153, 153);
+}
+
+
 
 /* FOOTER */
