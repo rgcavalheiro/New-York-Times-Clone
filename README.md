@@ -20,7 +20,10 @@ The box model
 
 [Live Demo Link](https://raw.githack.com/rgcavalheiro/New-York-Times-Clone/nyt-article-page/index.html)
 
+## Setup
 
+- Git clone https://github.com/rgcavalheiro/New-York-Times-Clone.git
+- Open index.html in a browser.
 
 ## Authors
 
@@ -45,3 +48,5 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+
