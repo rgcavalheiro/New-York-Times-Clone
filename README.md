@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # New York Times Clone Page
 
 This assignment consists of making a clone of a New York Times article page. By this point, the student should be familiar with the concepts of:
@@ -15,10 +13,12 @@ The box model
 
 - HTML/CSS,
 - VISUAL STUDIO CODE
+- GIT
+- Lynters
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/rgcavalheiro/New-York-Times-Clone/nyt-article-page/index.html)
 
 
 
@@ -45,9 +45,3 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
