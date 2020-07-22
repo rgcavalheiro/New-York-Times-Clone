@@ -540,7 +540,94 @@ body {
     border-bottom-color:rgb(266, 266, 266) ;
 }
 
-
-
-
 /* FOOTER */
+
+.footer-links {
+    display: grid;
+    width: 65%;
+    margin: 0 auto;
+    grid-template: 30px 300px / repeat(6, 1fr);
+    grid-template-areas: 
+                         "logo logo logo logo logo logo"
+                         "news opinion arts living more subscribe";
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 4px double #e2e2e2;
+    margin-top: 50px;
+}
+
+.footer-links-logo{
+    grid-area: logo;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links-logo img {
+    width: 15%;
+}
+
+.footer-links-logo a {
+    text-decoration: none;
+    color: #60839B;
+    font-size: 11px;
+}
+
+.news {
+    grid-area: news;
+}
+
+.opinion {
+    grid-area: opinion;
+}
+
+.arts {
+
+    grid-area: arts;
+}
+
+.living {
+    grid-area: living;
+}
+
+.more {
+    grid-area: more;
+}
+
+.subscribe {
+    grid-area: subscribe;
+}
+
+.subscribe ul{
+    border-left: 2px solid #e2e2e2;
+}
+
+.subscribe li {
+    margin-left: 10px;
+}
+
+.footer-links-element ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links-element h5{
+    margin: 10px 0;
+    font-size: 13px;
+    color: #333;
+}
+
+.footer-links-element li {
+    font-size: 11px;
+    line-height: 14px;
+    padding: 2px;
+}
+
+.footer-links-element a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-links-element a:hover{
+    text-decoration: underline;
+}
