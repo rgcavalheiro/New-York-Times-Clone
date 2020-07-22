@@ -114,9 +114,9 @@ iframe {
   border-radius: 50%;
 }
 
-.fix i {
+.fix a {
   height: 10px;
-  width: 23px !important;
+  width: 23px ;
   font-size: 15px;
 }
 
@@ -202,7 +202,7 @@ iframe {
   }
 
   .inflation-theory {
-    height: 800px !important;
+    height: 80vh ;
   }
 }
 
@@ -219,7 +219,7 @@ iframe {
 
 .inflation-theory {
   width: 60%;
-  height: 750px;
+  height: 95vh;
   margin: 0 auto;
   display: grid;
   grid-template: 100px repeat(4, 1fr) 100px / repeat(4, 1fr);
@@ -700,7 +700,7 @@ iframe {
   margin: 0;
 }
 
-.fa-angle-up {
-  font-size: 20px !important;
-  font-weight: 900 !important;
+#fa-angle-up {
+  font-size: 20px ;
+  font-weight: 900;
 }
