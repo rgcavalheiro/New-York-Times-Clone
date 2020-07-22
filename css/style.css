@@ -631,3 +631,30 @@ body {
 .footer-links-element a:hover{
     text-decoration: underline;
 }
+.contacts{
+    width: 70%;
+    margin: 0 auto 60px auto;
+    
+}
+
+.contacts ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contacts li{
+    list-style: none;
+   
+    font-size:10px;
+}
+
+.contacts li a{
+    text-decoration: none;
+    color: #666;
+}
+
+.contacts li a:hover{
+    text-decoration: underline;
+    color: #666;
+}
