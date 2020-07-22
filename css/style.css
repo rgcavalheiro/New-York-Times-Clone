@@ -340,7 +340,7 @@ body {
 
 .grid-container{
     width: 87%;
-    margin: 0 auto;
+    margin: 50px auto;
     display: grid;
     grid-template: 50px repeat(2, 180px 15px 70px) 50px 180px 15px 70px / repeat(4,1fr);
     grid-template-areas: "title title title most-popular" 
@@ -359,6 +359,19 @@ body {
 
 .moreinspace{
     grid-area:title;
+}
+
+.moreinspace a{
+    color:black;
+    text-decoration: none;
+}
+
+.moreinspace a:hover{
+    text-decoration: underline;
+}
+
+.moreinspace h4{
+    margin:12px 0;
 }
 
 .figure1{
@@ -477,6 +490,10 @@ body {
     grid-area: most-popular;
 }
 
+.most-popular h3{
+    margin:11px 0;
+}
+
 .title2{
     grid-area: title2;
 }
@@ -487,6 +504,14 @@ body {
 
 .small-caption{
     margin:0;
+}
+
+.big-caption span{
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.3px;
+    color: rgb(153, 153, 153);
 }
 
 .big-caption h3{
@@ -501,6 +526,19 @@ body {
     text-align: right;
     color: rgb(153, 153, 153);
 }
+
+.popular-links a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+}
+
+.popular-links hr{
+    margin:21px 0;
+    border-bottom-color:rgb(266, 266, 266) ;
+}
+
 
 
 
