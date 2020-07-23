@@ -7,7 +7,7 @@ Working with forms (buttons in this case)
 Floats and positioning
 The box model
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/app_screenshot.png)
 
 ## Built With
 

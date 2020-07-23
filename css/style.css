@@ -19,6 +19,10 @@ body {
   z-index: 1;
 }
 
+.logo {
+    margin-left: 117px;
+}
+
 .icons a {
   text-decoration: none;
   color: black;
@@ -196,13 +200,13 @@ iframe {
   align-items: center;
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1600px) {
   .picks {
     margin: 15px 0;
   }
 
   .inflation-theory {
-    height: 80vh;
+    height: 85vh;
   }
 }
 
@@ -219,7 +223,7 @@ iframe {
 
 .inflation-theory {
   width: 60%;
-  height: 95vh;
+  height: 800px;
   margin: 0 auto;
   display: grid;
   grid-template: 100px repeat(4, 1fr) 100px / repeat(4, 1fr);
