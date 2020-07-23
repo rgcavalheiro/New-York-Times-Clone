@@ -136,6 +136,11 @@ iframe {
 
 .author-name {
   text-decoration-color: #ccc;
+  color: #333;
+}
+
+.author-name:hover {
+  text-decoration: none;
 }
 
 .author h5 {
@@ -155,6 +160,21 @@ iframe {
   padding: 0 20px;
 }
 
+.subscribe-nyt a {
+  text-decoration: none;
+  color: #326891;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.bottompart a {
+  color: rgb(102, 102, 102);
+}
+
+.moreinspace a {
+  text-decoration: none;
+}
+
 .subscribe-nyt {
   text-align: center;
 }
@@ -168,13 +188,6 @@ iframe {
   margin-bottom: -10px;
   color: #333;
   font-size: 10px;
-}
-
-.subscribe-nyt a {
-  text-decoration: none;
-  color: #326891;
-  font-size: 10px;
-  font-weight: 600;
 }
 
 .editor-picks {
@@ -337,14 +350,6 @@ iframe {
   color: rgb(102, 102, 102);
 }
 
-.bottompart a {
-  color: rgb(102, 102, 102);
-}
-
-.moreinspace a {
-  text-decoration: none;
-}
-
 .footer-links-logo a {
   text-decoration: none;
   color: #60839b;
@@ -373,6 +378,10 @@ iframe {
 
 .small-caption a {
   color: rgb(153, 153, 153);
+}
+
+.articles p a {
+  color: #326891;
 }
 
 .contacts li a {
